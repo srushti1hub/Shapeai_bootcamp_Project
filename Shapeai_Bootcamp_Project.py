@@ -22,6 +22,7 @@ pressure = API_Data['main']['pressure']
 #Wind Speed at Location
 wind_speed = API_Data['wind']['speed']
 today = datetime.now().strftime("%d %b %Y | %I:%M:%S %p")
+print(today)
 #Displaying All Information on Console
 print("Entered City   : "+location)
 print("Longitude      : ",longitude,"\nLatitude       : ",latitude)
