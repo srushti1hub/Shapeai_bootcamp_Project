@@ -3,7 +3,7 @@ import requests
 import json
 from datetime import datetime
 #API key for using weather API
-API_Key = '8918cd3f85ebd5f347b6f4eeb7c60b43'
+API_Key = 'your_api_key'
 #Input from the user for loaction
 location = input('Enter the city : ')
 Complete_API_Link = "https://api.openweathermap.org/data/2.5/weather?q="+location+"&appid="+API_Key
